@@ -194,7 +194,7 @@ GROUP BY home_ownership
 ORDER BY total_loan_applications DESC;
 ```
 ### <ins>_A snapshot of the report from Power BI_
-![The summary of the bank's Lending Activities](Assets\Overview.png)
+![The overview of the bank's Lending Activities](Assets\Overview.png)
 
 ### <ins>_Key insights from the abovementioned analysis_
 - **Monthly trends :** Total applications, funded amounts, and amounts received show consistent growth throughout the year, reflecting steady increases in lending activity.
