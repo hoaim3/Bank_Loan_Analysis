@@ -130,7 +130,7 @@ FROM bank_loan
 WHERE loan_status = 'Charged Off'
 ```
 ### _<ins>A snapshot of the report from Power BI_
-![The summary of the bank's Lending Activities](Assets\Summary.png)
+![Summary](https://github.com/user-attachments/assets/0928878a-86f4-4ae9-8939-3f00f58784fc)
 ### <ins>_Key insights from the abovementioned analysis_
 - **Proportion of Good Loans :** Over 86% of the loans issued are classified as good loans, indicating a strong overall lending performance. Good loans include those that are either fully paid or currently active, demonstrating the bank's ability to manage and maintain a healthy loan portfolio.
 
@@ -194,7 +194,7 @@ GROUP BY home_ownership
 ORDER BY total_loan_applications DESC;
 ```
 ### <ins>_A snapshot of the report from Power BI_
-![The overview of the bank's Lending Activities](Assets\Overview.png)
+![Overview](https://github.com/user-attachments/assets/1450b6b5-38da-44fb-a827-e61ca31c2e2c)
 
 ### <ins>_Key insights from the abovementioned analysis_
 - **Monthly trends :** Total applications, funded amounts, and amounts received show consistent growth throughout the year, reflecting steady increases in lending activity.
