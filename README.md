@@ -131,7 +131,7 @@ WHERE loan_status = 'Charged Off'
 ```
 ### _<ins>A snapshot of the report from Power BI_
 ![Summary](https://github.com/user-attachments/assets/0928878a-86f4-4ae9-8939-3f00f58784fc)
-### <ins>_Key insights from the abovementioned analysis_
+### <ins>_Key insights_
 - **Proportion of Good Loans :** Over 86% of the loans issued are classified as good loans, indicating a strong overall lending performance. Good loans include those that are either fully paid or currently active, demonstrating the bank's ability to manage and maintain a healthy loan portfolio.
 
 - **Interest Rates and Debt-to-Income Ratios:** Loans that are fully paid exhibit the lowest average interest rates and debt-to-income ratios, reflecting the lower risk associated with these borrowers. Charged-off loans rank next, showing moderately higher averages in these metrics, likely due to the increased risk that led to default. Current loans, however, have the highest average interest rates and debt-to-income ratios, possibly indicating that borrowers with active loans tend to take on higher financial burdens or are charged higher rates based on risk assessment.
@@ -196,7 +196,7 @@ ORDER BY total_loan_applications DESC;
 ### <ins>_A snapshot of the report from Power BI_
 ![Overview](https://github.com/user-attachments/assets/1450b6b5-38da-44fb-a827-e61ca31c2e2c)
 
-### <ins>_Key insights from the abovementioned analysis_
+### <ins>_Key insights_
 - **Monthly trends :** Total applications, funded amounts, and amounts received show consistent growth throughout the year, reflecting steady increases in lending activity.
 - **Regional analysis :** States such as California, Texas, Florida, and New York lead in lending activity, dominating across total applications, funded amounts, and amounts received.
 - **Loan term analysis :** Short-term loans make up the largest share of total loan applications, representing over 26.8%. However, long-term loans account for a higher average funded amount per application, with more than 37% of the total funds distributed allocated to long-term loans.
