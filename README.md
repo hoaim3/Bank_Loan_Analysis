@@ -1,7 +1,7 @@
 # Introduction
-📊 Dive into the bank loan data! Focusing on the bank's lending activities and performance, this project provides insights into key loan-related mentrics and their changes over time 📈. It enables monitoring the health of the loan portfolio 🔍, as well as refining lending strategies for better outcomes ✨.
+📊 Dive into the bank loan data! Focusing on the bank's lending activities and performance, this project provides insights into key loan-related metrics and their changes over time 📈. It enables monitoring the health of the loan portfolio 🔍, as well as refining lending strategies for better outcomes ✨.
 # Background
-Inspired by [Data Tutorials](https://www.youtube.com/watch?v=OVIunrZUzd0), this project replicates his work to enhance proficiency in SQL and Power BI. Building on his foundation, additional insights and practical applications were developed to deepen understanding.
+Inspired by [Data Tutorials](https://www.youtube.com/watch?v=OVIunrZUzd0), this project expands on his work to enhance proficiency in SQL and Power BI. By building on his foundation, I developed additional insights and practical applications to deepen my understanding.
 ### Key focus areas
 1. Overview
     - Analyze the bank's 2021 lending activities through KPIs: total applications, funded amounts, received amounts, average interest rate, and debt-to-income ratio.
@@ -27,7 +27,7 @@ Each query aimed at investigating the dynamics of the bank's lending activities 
 
 ## 1. Overview
 ### <ins>_KPIs_
-Queries to identify key metrics related lending activities and performance are presented as follow:
+Queries to identify key metrics related to lending activities and performance are presented as follows:
 - Total loan application & MTD application
 ```sql
 SELECT
@@ -60,8 +60,8 @@ ORDER BY month ASC;
 _Similar queries were developed to calculate other metrics, including metrics related to funded amount, amount received, average interest rate, and average debt-to-income ratio_ 
 
 ### <ins>_Good Loan vs Bad Loan_
-To further assess the health of lending portfolio, loans are classified into good loans and bad loans. 
-- Good loans: those that are full paid or currently active
+To further assess the health of the lending portfolio, loans are classified into good and bad loans. 
+- Good loans: those that are fully paid or currently active
 ```sql
 SELECT 
     '# of Applications' AS Good_Loan_KPIs,
@@ -136,7 +136,7 @@ WHERE loan_status = 'Charged Off'
 
 - **Interest Rates and Debt-to-Income Ratios:** Loans that are fully paid exhibit the lowest average interest rates and debt-to-income ratios, reflecting the lower risk associated with these borrowers. Charged-off loans rank next, showing moderately higher averages in these metrics, likely due to the increased risk that led to default. Current loans, however, have the highest average interest rates and debt-to-income ratios, possibly indicating that borrowers with active loans tend to take on higher financial burdens or are charged higher rates based on risk assessment.
 ## 3. Lending trends
-Investigating trends across different areas are essential to form and refine lending strategies.
+Investigating trends across different areas is essential to form and refine lending strategies.
 ### <ins>_SQL queries_
 - Monthly trends
 ```sql
@@ -200,7 +200,7 @@ ORDER BY total_loan_applications DESC;
 - **Monthly trends :** Total applications, funded amounts, and amounts received show consistent growth throughout the year, reflecting steady increases in lending activity.
 - **Regional analysis :** States such as California, Texas, Florida, and New York lead in lending activity, dominating across total applications, funded amounts, and amounts received.
 - **Loan term analysis :** Short-term loans make up the largest share of total loan applications, representing over 26.8%. However, long-term loans account for a higher average funded amount per application, with more than 37% of the total funds distributed allocated to long-term loans.
-- **Enployment length analysis :** Borrowers with over 10 years of employment represent the majority of both loan applications and funded amounts. Interestingly, individuals with less than one year of employment submit more applications than those with two years of employment but tend to borrow smaller amounts.
+- **Employment length analysis :** Borrowers with over 10 years of employment represent the majority of both loan applications and funded amounts. Interestingly, individuals with less than one year of employment submit more applications than those with two years of employment but tend to borrow smaller amounts.
 - **Home ownership analysis :** While renters make up the majority of loan applicants, the highest funded amounts are granted to borrowers with mortgages.
 # What I learned
 Throughout this project, I've significantly refined my SQL and Power BI skills:
